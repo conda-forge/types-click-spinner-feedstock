@@ -1,5 +1,5 @@
 {% set name = "types-click-spinner" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-click-spinner-{{ version }}.tar.gz
-  sha256: 585d0542137b94e00f12d72e7a637e9580bcdd833bdb7aa48c66d8cae1f802fc
+  sha256: 5bd0697df16f25a5b7d2a33bde4f4990b0c0d652be8608c2fa475384775805a1
 
 build:
   number: 0
