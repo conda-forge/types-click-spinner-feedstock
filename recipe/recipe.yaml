@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.13.20260408"
+  version: "0.1.13.20260625"
 
 package:
   name: types-click-spinner
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-click-spinner/types_click_spinner-${{ version }}.tar.gz
-  sha256: 3d2b4c4d07ba3ab8c8836e96e806fb05eec6a2e27e2683f3fa775e0c0c9d97ce
+  sha256: 1a2f5f4e99c24666481867236054cec5ef841d1cfd433a2c030cbf8287c96a8f
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
