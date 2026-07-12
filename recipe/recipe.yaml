@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.13.20260625"
+  version: "0.1.13.20260712"
 
 package:
   name: types-click-spinner
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-click-spinner/types_click_spinner-${{ version }}.tar.gz
-  sha256: 1a2f5f4e99c24666481867236054cec5ef841d1cfd433a2c030cbf8287c96a8f
+  sha256: a0ddf573edac285cf82834bbc5070285196e12c351ae14d056985d4578699c46
 
 build:
   number: 0
